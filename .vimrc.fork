@@ -1,6 +1,4 @@
 " font and colors
-set ctermfg=grey 
-set ctermbg=black
 set guifont=Inconsolata\ 9
 
 set guioptions-=T " Removes top toolbar
@@ -9,3 +7,7 @@ set go-=L " Removes left hand scroll bar
 
 " plugins
 let NERDTreeQuitOnOpen=0
+NERDTree
+
+" shortcuts
+imap <c-p> <c-f>
