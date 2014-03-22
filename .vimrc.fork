@@ -1,5 +1,6 @@
 " font and colors
-set background=date_fullrk
+set ctermfg=grey 
+set ctermbg=black
 set guifont=Inconsolata\ 9
 
 set guioptions-=T " Removes top toolbar
