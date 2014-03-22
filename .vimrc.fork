@@ -5,7 +5,7 @@ set guioptions-=T " Removes top toolbar
 set guioptions-=r " Removes right hand scroll bar
 set go-=L " Removes left hand scroll bar
 
-set lines=999 columns=999
+set lines=40 
 
 " shortcuts
 
@@ -18,3 +18,4 @@ let g:miniBufExplMapWindowNavArrows = 1
 let g:miniBufExplMapCTabSwitchBufs = 1
 let g:miniBufExplModSelTarget = 1
 
+let g:indent_guides_enable_on_vim_startup = 0
