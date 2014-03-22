@@ -5,9 +5,14 @@ set guioptions-=T " Removes top toolbar
 set guioptions-=r " Removes right hand scroll bar
 set go-=L " Removes left hand scroll bar
 
+if has("gui_running")
+  " GUI is running or is about to start.
+  " Maximize gvim window.
+  set lines=999 columns=999
+endif
+
 " plugins
 let NERDTreeQuitOnOpen=0
-NERDTree
 
 " shortcuts
-imap <c-p> <c-f>
+
