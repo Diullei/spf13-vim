@@ -7,7 +7,8 @@ set go-=L " Removes left hand scroll bar
 
 set lines=40 
 
-let g:spf13_leader='\'
+syntax on
+colorscheme mirodark
 
 " shortcuts
 
