@@ -20,9 +20,12 @@ else
 endif
 
 " plugins
-let NERDTreeQuitOnOpen=0
+" let NERDTreeQuitOnOpen=0
 
 " shortcuts
+
+map <C-Tab> :bn<cr>
+map <C-S-Tab> :bp<cr>
 
 " Mini Buffer some settigns."
 let g:miniBufExplMapWindowNavVim = 1
