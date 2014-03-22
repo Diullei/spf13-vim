@@ -16,7 +16,6 @@ map <C-Tab> :bn<cr>
 map <C-S-Tab> :bp<cr>
 
 let g:user_emmet_leader_key='<C-Space>'
-inoremap <C-@> <C-Space>
 
 " Mini Buffer some settigns."
 let g:miniBufExplMapWindowNavVim = 1
