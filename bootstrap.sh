@@ -115,11 +115,6 @@ create_symlinks() {
     lnif "$endpath/.vimrc.before"       "$HOME/.vimrc.before"
     lnif "$endpath/.vim"                "$HOME/.vim"
 
-    # create colors dir if not exists
-    mkdir -p $endpath/colors
-    # install theme
-    mv $endpath/mirodark.vim $endpath/colors/mirodark.vim
-
     # Useful for fork maintainers
     touch  "$HOME/.vimrc.local"
 
