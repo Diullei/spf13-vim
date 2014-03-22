@@ -1,1 +1,4 @@
 " Bundle 'fholgado/minibufexpl.vim'
+Bundle 'majutsushi/tagbar'
+Bundle 'leafgarland/typescript-vim'
+Bundle 'digitaltoad/vim-jade'
